@@ -10,11 +10,15 @@ body {
     text-decoration: none;
   }
   
-  h1, h2 {
+  h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+
+  h2{
     font-weight: 700;
     margin: 0 0 1rem 0;
   }
-  
   p {
     color: #ffffff;
     margin: 0;
@@ -42,12 +46,12 @@ body {
   }
   
   nav a:hover {
-    color: #00b8d9;
+    color: #cccccc;
   }
   
   
   #hero {
-    background-image: url('https://i.postimg.cc/zGXf6N1T/Black-ops-2-cover.jpg');
+    background-image: url('https://i.postimg.cc/QMCRQSWr/920x515-singapore.jpg');
     background-size: cover;
     background-position: center;
     height: 100ch;
@@ -59,6 +63,7 @@ body {
     color: #ffffff;
     padding: 1rem;
     border: 0;
+    padding-top: 100px;
   }
   
   #hero h1 {
@@ -79,7 +84,7 @@ body {
   
   #features h2 {
     font-size: 2.5rem;
-    color: #00b8d9;
+    color: #ffffff;
   }
   
   #features p {
@@ -100,4 +105,27 @@ body {
     margin-bottom: 3rem;
     filter: blur(0.1px) saturate(1.1);
   }
-  
+  #qm {
+    margin-right: 700px;
+    margin-top: -1px;
+  }
+  #dow {
+    margin-left:  870px ;
+    margin-top: -26px;
+  }
+  #not {
+    margin-left: 1730px;
+    margin-top: -27px;
+  }
+  .vinicius {
+background-color: rgb(0, 255, 0);
+  }
+
+  img.tela-cheia {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para preencher a tela sem distorção */
+}
