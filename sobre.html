@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!--posso escluir depois-->
+    <title>Manipulação do DOM</title>
+    <script>
+        let count = 0;
+
+        function incrementCount() {
+          count++;
+          document.getElementById("count-display").textContent = count;
+        }        
+
+    </script>
+<!--posso escluir depois-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Call of Duty: Black Ops 2</title>
@@ -31,6 +43,13 @@
         }
     </style>
 </head>
+<!--posso escluir depois-->
+<h1>Manipulação do DOM</h1>
+<button onclick="incrementCount()">Clique Aqui</button>
+<p>Total de Cliques: <span id="count-display">0</span></p>
+<!--posso escluir depois-->
+
+
 <body>
     <h1>Call of Duty: Black Ops 2</h1>
     <img id="tela-cheia" src="https://i.postimg.cc/pLvzjRKL/2012-08-16-codblackops2gamescom3-1.webp" alt="Capa do jogo Call of Duty: Black Ops 2">
