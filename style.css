@@ -1,4 +1,5 @@
 body {
+  color: #0f0f0f;
   background-color: #0f0f0f;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
@@ -14,6 +15,8 @@ body {
   h1 {
     font-weight: 700;
     margin: 0;
+    margin-bottom: 90%;
+    color: rgb(0, 0, 0);
   }
 
   h2{
@@ -26,7 +29,7 @@ body {
   }
   
   header {
-    background-color: #1a1a1a;
+    background-color: #000000;
     padding: 1rem;
     position: fixed;
     top: 0;
@@ -47,7 +50,7 @@ body {
   }
   
   nav a:hover {
-    color: #cccccc;
+    color: #ffffff;
   }
   
   
@@ -56,15 +59,17 @@ body {
     background-size: cover;
     background-position: center;
     height: 100ch;
-    display: flex;
+    display:center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:center;
     color: #ffffff;
     padding: 1rem;
-    border: 0;
-    padding-top: 100px;
+    border: 10;
+    padding-top:100px;
+    display: yes;
+    margin-bottom: 50cm;
   }
   
   #hero h1 {
@@ -94,7 +99,7 @@ body {
   }
   
   footer {
-    background-color: #0f0f0f;
+    background-color: #ffffff;
     padding: 2rem;
     text-align: center;
   }
@@ -118,10 +123,7 @@ body {
     margin-left: 1730px;
     margin-top: -27px;
   }
-  .vinicius {
-background-color: rgb(0, 255, 0);
-  }
-
+ 
   img.tela-cheia {
     position: fixed;
     top: 0;
