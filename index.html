@@ -7,11 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <!--posso escluir depois-->
+<title>Manipulação do DOM</title>
+<script>
+    let count = 0;
+
+    function incrementCount() {
+      count++;
+      document.getElementById("count-display").textContent = count;
+    }        
+
+</script>
+<!--posso escluir depois-->
+
+<!--posso excluir depois-->
 <h1>Manipulação do DOM</h1>
 <button onclick="incrementCount()">Clique Aqui</button>
 <p>Total de Cliques: <span id="count-display">0</span></p>
-<!--posso escluir depois-->
+<!--posso excluir depois-->
+
 <body>
+
     <header>
         <nav id="qm">
             <a href="./sobre.html">Sobre</a>
