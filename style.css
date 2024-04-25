@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ p {
 }
 
 header {
-  background-color: #000000;
+  background-color: #5e5e5e;
   padding: 1rem;
   position: fixed;
   top: 0;
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffffff;
+  color: #a5a1a1;
 }
 
 #hero {
@@ -81,7 +81,7 @@ nav a:hover {
 
 #features {
   padding: 6rem 2rem;
-  background-color: #121212;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
