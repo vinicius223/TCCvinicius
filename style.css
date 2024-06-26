@@ -140,7 +140,7 @@ body {
 }
 
 h2 {
-  color: #333;
+  color: #eeeeee;
   text-align: center;
 }
 
@@ -148,9 +148,9 @@ form {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #8b8787;
+  border: 1px solid #272525;
   border-radius: 10px;
-  background-color: #5e5e5e;
+  background-color: #2b2727;
 }
 
 label {
@@ -170,7 +170,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #2f3d30;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -179,7 +179,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #2f3d30;
 }
 .aviso{
   background-color: #af4c4c;
