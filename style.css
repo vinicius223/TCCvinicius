@@ -182,9 +182,10 @@ input[type="submit"]:hover {
   background-color: #2f3d30;
 }
 .aviso{
-  background-color: #af4c4c;
+  background-color: #ff0000;
   color: white;
   border-radius: 5px;
   text-align: center;
+  font-size: 14px; /* Tamanho da fonte alterado para 14px */
 
 }
